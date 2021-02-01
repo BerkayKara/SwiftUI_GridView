@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6317053525A9FDF40069773A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6317053425A9FDF40069773A /* Kingfisher */; };
+		6382E33725C0537300E01B97 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33625C0537300E01B97 /* AppDetailView.swift */; };
+		6382E33C25C0543100E01B97 /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33B25C0543100E01B97 /* MusicDetailView.swift */; };
+		6382E33F25C0570700E01B97 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33E25C0570700E01B97 /* MovieDetailView.swift */; };
+		6382E34325C0588200E01B97 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34225C0588200E01B97 /* BookDetailView.swift */; };
+		6382E34625C05F1F00E01B97 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34525C05F1F00E01B97 /* CustomButtonView.swift */; };
+		6382E35025C0612F00E01B97 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34F25C0612F00E01B97 /* MainView.swift */; };
+		63966FB925B31E9C000C6E8B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FB825B31E9C000C6E8B /* AppModel.swift */; };
+		63966FBE25B31F58000C6E8B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FBD25B31F58000C6E8B /* MovieModel.swift */; };
+		63966FC125B320AA000C6E8B /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC025B320AA000C6E8B /* MusicModel.swift */; };
+		63966FC625B321A4000C6E8B /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC525B321A4000C6E8B /* BookModel.swift */; };
+		63966FCA25B32447000C6E8B /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC925B32447000C6E8B /* MovieView.swift */; };
+		63966FCD25B32481000C6E8B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FCC25B32481000C6E8B /* AppView.swift */; };
+		63966FDA25B3361B000C6E8B /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FD925B3361B000C6E8B /* MusicView.swift */; };
+		63966FDD25B33628000C6E8B /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FDC25B33628000C6E8B /* BookView.swift */; };
+		63A8A0E025A9C98000DB559B /* BerkayKaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */; };
+		63A8A0E425A9C98100DB559B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A8A0E325A9C98100DB559B /* Assets.xcassets */; };
+		63A8A0E725A9C98100DB559B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A8A0E625A9C98100DB559B /* Preview Assets.xcassets */; };
+		63D534C925AB2E0600E46351 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D534C825AB2E0600E46351 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6382E33625C0537300E01B97 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
+		6382E33B25C0543100E01B97 /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
+		6382E33E25C0570700E01B97 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		6382E34225C0588200E01B97 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		6382E34525C05F1F00E01B97 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		6382E34F25C0612F00E01B97 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		63966FB825B31E9C000C6E8B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		63966FBD25B31F58000C6E8B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		63966FC025B320AA000C6E8B /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		63966FC525B321A4000C6E8B /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		63966FC925B32447000C6E8B /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		63966FCC25B32481000C6E8B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		63966FD925B3361B000C6E8B /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		63966FDC25B33628000C6E8B /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		63A8A0DC25A9C98000DB559B /* BerkayKara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerkayKara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerkayKaraApp.swift; sourceTree = "<group>"; };
+		63A8A0E325A9C98100DB559B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A8A0E625A9C98100DB559B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63A8A0E825A9C98100DB559B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D534C825AB2E0600E46351 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A8A0D925A9C98000DB559B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317053525A9FDF40069773A /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6382E34925C060D400E01B97 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				63966FC925B32447000C6E8B /* MovieView.swift */,
+				6382E33E25C0570700E01B97 /* MovieDetailView.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		6382E34B25C060EF00E01B97 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				63966FD925B3361B000C6E8B /* MusicView.swift */,
+				6382E33B25C0543100E01B97 /* MusicDetailView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		6382E34C25C060F600E01B97 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63966FCC25B32481000C6E8B /* AppView.swift */,
+				6382E33625C0537300E01B97 /* AppDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6382E34D25C060FB00E01B97 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				63966FDC25B33628000C6E8B /* BookView.swift */,
+				6382E34225C0588200E01B97 /* BookDetailView.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		6382E34E25C0610600E01B97 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				6382E34525C05F1F00E01B97 /* CustomButtonView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		63966FC825B323FB000C6E8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63966FBD25B31F58000C6E8B /* MovieModel.swift */,
+				63966FC025B320AA000C6E8B /* MusicModel.swift */,
+				63966FB825B31E9C000C6E8B /* AppModel.swift */,
+				63966FC525B321A4000C6E8B /* BookModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63966FCF25B324AE000C6E8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6382E34F25C0612F00E01B97 /* MainView.swift */,
+				6382E34925C060D400E01B97 /* Movie */,
+				6382E34B25C060EF00E01B97 /* Music */,
+				6382E34C25C060F600E01B97 /* App */,
+				6382E34D25C060FB00E01B97 /* Book */,
+				6382E34E25C0610600E01B97 /* Custom */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63A8A0D325A9C98000DB559B = {
+			isa = PBXGroup;
+			children = (
+				63A8A0DE25A9C98000DB559B /* BerkayKara */,
+				63A8A0DD25A9C98000DB559B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A8A0DD25A9C98000DB559B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A8A0DC25A9C98000DB559B /* BerkayKara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A8A0DE25A9C98000DB559B /* BerkayKara */ = {
+			isa = PBXGroup;
+			children = (
+				63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */,
+				63D534C825AB2E0600E46351 /* ViewModel.swift */,
+				63966FC825B323FB000C6E8B /* Models */,
+				63966FCF25B324AE000C6E8B /* View */,
+				63A8A0E325A9C98100DB559B /* Assets.xcassets */,
+				63A8A0E825A9C98100DB559B /* Info.plist */,
+				63A8A0E525A9C98100DB559B /* Preview Content */,
+			);
+			path = BerkayKara;
+			sourceTree = "<group>";
+		};
+		63A8A0E525A9C98100DB559B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63A8A0E625A9C98100DB559B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A8A0DB25A9C98000DB559B /* BerkayKara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A8A0EB25A9C98100DB559B /* Build configuration list for PBXNativeTarget "BerkayKara" */;
+			buildPhases = (
+				63A8A0D825A9C98000DB559B /* Sources */,
+				63A8A0D925A9C98000DB559B /* Frameworks */,
+				63A8A0DA25A9C98000DB559B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BerkayKara;
+			packageProductDependencies = (
+				6317053425A9FDF40069773A /* Kingfisher */,
+			);
+			productName = BerkayKara;
+			productReference = 63A8A0DC25A9C98000DB559B /* BerkayKara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A8A0D425A9C98000DB559B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					63A8A0DB25A9C98000DB559B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 63A8A0D725A9C98000DB559B /* Build configuration list for PBXProject "BerkayKara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A8A0D325A9C98000DB559B;
+			packageReferences = (
+				6317053325A9FDF30069773A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 63A8A0DD25A9C98000DB559B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A8A0DB25A9C98000DB559B /* BerkayKara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A8A0DA25A9C98000DB559B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A8A0E725A9C98100DB559B /* Preview Assets.xcassets in Resources */,
+				63A8A0E425A9C98100DB559B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A8A0D825A9C98000DB559B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D534C925AB2E0600E46351 /* ViewModel.swift in Sources */,
+				63966FDA25B3361B000C6E8B /* MusicView.swift in Sources */,
+				6382E34625C05F1F00E01B97 /* CustomButtonView.swift in Sources */,
+				63966FCD25B32481000C6E8B /* AppView.swift in Sources */,
+				63966FBE25B31F58000C6E8B /* MovieModel.swift in Sources */,
+				6382E33725C0537300E01B97 /* AppDetailView.swift in Sources */,
+				6382E33F25C0570700E01B97 /* MovieDetailView.swift in Sources */,
+				6382E34325C0588200E01B97 /* BookDetailView.swift in Sources */,
+				6382E33C25C0543100E01B97 /* MusicDetailView.swift in Sources */,
+				63A8A0E025A9C98000DB559B /* BerkayKaraApp.swift in Sources */,
+				6382E35025C0612F00E01B97 /* MainView.swift in Sources */,
+				63966FB925B31E9C000C6E8B /* AppModel.swift in Sources */,
+				63966FCA25B32447000C6E8B /* MovieView.swift in Sources */,
+				63966FC125B320AA000C6E8B /* MusicModel.swift in Sources */,
+				63966FDD25B33628000C6E8B /* BookView.swift in Sources */,
+				63966FC625B321A4000C6E8B /* BookModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63A8A0E925A9C98100DB559B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A8A0EA25A9C98100DB559B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A8A0EC25A9C98100DB559B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BerkayKara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BerkayKara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BerkayKara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63A8A0ED25A9C98100DB559B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BerkayKara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BerkayKara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BerkayKara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A8A0D725A9C98000DB559B /* Build configuration list for PBXProject "BerkayKara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A8A0E925A9C98100DB559B /* Debug */,
+				63A8A0EA25A9C98100DB559B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A8A0EB25A9C98100DB559B /* Build configuration list for PBXNativeTarget "BerkayKara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A8A0EC25A9C98100DB559B /* Debug */,
+				63A8A0ED25A9C98100DB559B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6317053325A9FDF30069773A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6317053425A9FDF40069773A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6317053325A9FDF30069773A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63A8A0D425A9C98000DB559B /* Project object */;
+}
