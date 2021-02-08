@@ -20,7 +20,7 @@ struct CustomButtonView: View {
                 .frame(minWidth: 0, maxWidth: 250, minHeight: 0 ,maxHeight: 20)
                 .padding()
                 .foregroundColor(.white)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                .background(LinearGradient(gradient: Gradient(colors: [Color.init( red: 0, green: 0, blue: 0.5, opacity: 1), Color.init( red: 0.7, green: 0.85, blue: 0.9, opacity: 1)]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(40)
                 .font(.title3)
             

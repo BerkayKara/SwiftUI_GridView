@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     
     @State private var typeSelection = 0
     @State private var searchText : String = ""
@@ -88,31 +88,31 @@ struct ContentView: View {
                         ForEach(viewModel.movies.filter({
                             "\($0)".contains(searchText) || searchText.isEmpty
                         }), id: \.self) { collection in
-                            MovieView(collection: collection).animation(.easeIn)
+                            ContentView(collection: collection, dataType: ContentTypeEnums.Movie).animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
                         }
                     case 1:
                         ForEach(viewModel.musics.filter({
                             "\($0)".contains(searchText) || searchText.isEmpty
                         }), id: \.self) { collection in
-                            MusicView(collection: collection).animation(.easeIn)
+                            ContentView(collection: collection, dataType: ContentTypeEnums.Music).animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
                         }
                     case 2:
                         ForEach(viewModel.applications.filter({
                             "\($0)".contains(searchText) || searchText.isEmpty
                         }), id: \.self) { collection in
-                            AppView(collection: collection).animation(.easeIn)
+                            ContentView(collection: collection, dataType: ContentTypeEnums.App).animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
                         }
                     case 3:
                         ForEach(viewModel.books.filter({
                             "\($0)".contains(searchText) || searchText.isEmpty
                         }), id: \.self) { collection in
-                            BookView(collection: collection).animation(.easeIn)
+                            ContentView(collection: collection, dataType: ContentTypeEnums.Book).animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
                         }
                     default:
                         ForEach(viewModel.movies.filter({
                             "\($0)".contains(searchText) || searchText.isEmpty
                         }), id: \.self) { collection in
-                            MovieView(collection: collection).animation(.easeIn)
+                            ContentView(collection: collection, dataType: ContentTypeEnums.Movie).animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
                         }
                         
                     }
@@ -128,7 +128,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
 

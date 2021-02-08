@@ -8,20 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6317053525A9FDF40069773A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6317053425A9FDF40069773A /* Kingfisher */; };
-		6382E33725C0537300E01B97 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33625C0537300E01B97 /* AppDetailView.swift */; };
-		6382E33C25C0543100E01B97 /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33B25C0543100E01B97 /* MusicDetailView.swift */; };
-		6382E33F25C0570700E01B97 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E33E25C0570700E01B97 /* MovieDetailView.swift */; };
-		6382E34325C0588200E01B97 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34225C0588200E01B97 /* BookDetailView.swift */; };
 		6382E34625C05F1F00E01B97 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34525C05F1F00E01B97 /* CustomButtonView.swift */; };
 		6382E35025C0612F00E01B97 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382E34F25C0612F00E01B97 /* MainView.swift */; };
-		63966FB925B31E9C000C6E8B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FB825B31E9C000C6E8B /* AppModel.swift */; };
-		63966FBE25B31F58000C6E8B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FBD25B31F58000C6E8B /* MovieModel.swift */; };
-		63966FC125B320AA000C6E8B /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC025B320AA000C6E8B /* MusicModel.swift */; };
-		63966FC625B321A4000C6E8B /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC525B321A4000C6E8B /* BookModel.swift */; };
-		63966FCA25B32447000C6E8B /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FC925B32447000C6E8B /* MovieView.swift */; };
-		63966FCD25B32481000C6E8B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FCC25B32481000C6E8B /* AppView.swift */; };
-		63966FDA25B3361B000C6E8B /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FD925B3361B000C6E8B /* MusicView.swift */; };
-		63966FDD25B33628000C6E8B /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63966FDC25B33628000C6E8B /* BookView.swift */; };
+		639137AF25D12F1800BE4753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639137AE25D12F1800BE4753 /* ContentView.swift */; };
+		639137B325D12F9600BE4753 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639137B225D12F9600BE4753 /* Model.swift */; };
+		639137B625D12FC600BE4753 /* ContentTypeEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639137B525D12FC600BE4753 /* ContentTypeEnums.swift */; };
+		639137B925D132B700BE4753 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639137B825D132B700BE4753 /* DetailView.swift */; };
 		63A8A0E025A9C98000DB559B /* BerkayKaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */; };
 		63A8A0E425A9C98100DB559B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A8A0E325A9C98100DB559B /* Assets.xcassets */; };
 		63A8A0E725A9C98100DB559B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A8A0E625A9C98100DB559B /* Preview Assets.xcassets */; };
@@ -29,20 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6382E33625C0537300E01B97 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
-		6382E33B25C0543100E01B97 /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
-		6382E33E25C0570700E01B97 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
-		6382E34225C0588200E01B97 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		6382E34525C05F1F00E01B97 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		6382E34F25C0612F00E01B97 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		63966FB825B31E9C000C6E8B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		63966FBD25B31F58000C6E8B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
-		63966FC025B320AA000C6E8B /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
-		63966FC525B321A4000C6E8B /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
-		63966FC925B32447000C6E8B /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
-		63966FCC25B32481000C6E8B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		63966FD925B3361B000C6E8B /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
-		63966FDC25B33628000C6E8B /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		639137AE25D12F1800BE4753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		639137B225D12F9600BE4753 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		639137B525D12FC600BE4753 /* ContentTypeEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeEnums.swift; sourceTree = "<group>"; };
+		639137B825D132B700BE4753 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		63A8A0DC25A9C98000DB559B /* BerkayKara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerkayKara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerkayKaraApp.swift; sourceTree = "<group>"; };
 		63A8A0E325A9C98100DB559B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,42 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6382E34925C060D400E01B97 /* Movie */ = {
-			isa = PBXGroup;
-			children = (
-				63966FC925B32447000C6E8B /* MovieView.swift */,
-				6382E33E25C0570700E01B97 /* MovieDetailView.swift */,
-			);
-			path = Movie;
-			sourceTree = "<group>";
-		};
-		6382E34B25C060EF00E01B97 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				63966FD925B3361B000C6E8B /* MusicView.swift */,
-				6382E33B25C0543100E01B97 /* MusicDetailView.swift */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
-		6382E34C25C060F600E01B97 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				63966FCC25B32481000C6E8B /* AppView.swift */,
-				6382E33625C0537300E01B97 /* AppDetailView.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		6382E34D25C060FB00E01B97 /* Book */ = {
-			isa = PBXGroup;
-			children = (
-				63966FDC25B33628000C6E8B /* BookView.swift */,
-				6382E34225C0588200E01B97 /* BookDetailView.swift */,
-			);
-			path = Book;
-			sourceTree = "<group>";
-		};
 		6382E34E25C0610600E01B97 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +58,7 @@
 		63966FC825B323FB000C6E8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				63966FBD25B31F58000C6E8B /* MovieModel.swift */,
-				63966FC025B320AA000C6E8B /* MusicModel.swift */,
-				63966FB825B31E9C000C6E8B /* AppModel.swift */,
-				63966FC525B321A4000C6E8B /* BookModel.swift */,
+				639137B225D12F9600BE4753 /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,10 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				6382E34F25C0612F00E01B97 /* MainView.swift */,
-				6382E34925C060D400E01B97 /* Movie */,
-				6382E34B25C060EF00E01B97 /* Music */,
-				6382E34C25C060F600E01B97 /* App */,
-				6382E34D25C060FB00E01B97 /* Book */,
+				639137AE25D12F1800BE4753 /* ContentView.swift */,
+				639137B825D132B700BE4753 /* DetailView.swift */,
 				6382E34E25C0610600E01B97 /* Custom */,
 			);
 			path = View;
@@ -151,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				63A8A0DF25A9C98000DB559B /* BerkayKaraApp.swift */,
+				639137B525D12FC600BE4753 /* ContentTypeEnums.swift */,
 				63D534C825AB2E0600E46351 /* ViewModel.swift */,
 				63966FC825B323FB000C6E8B /* Models */,
 				63966FCF25B324AE000C6E8B /* View */,
@@ -245,21 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D534C925AB2E0600E46351 /* ViewModel.swift in Sources */,
-				63966FDA25B3361B000C6E8B /* MusicView.swift in Sources */,
+				639137AF25D12F1800BE4753 /* ContentView.swift in Sources */,
 				6382E34625C05F1F00E01B97 /* CustomButtonView.swift in Sources */,
-				63966FCD25B32481000C6E8B /* AppView.swift in Sources */,
-				63966FBE25B31F58000C6E8B /* MovieModel.swift in Sources */,
-				6382E33725C0537300E01B97 /* AppDetailView.swift in Sources */,
-				6382E33F25C0570700E01B97 /* MovieDetailView.swift in Sources */,
-				6382E34325C0588200E01B97 /* BookDetailView.swift in Sources */,
-				6382E33C25C0543100E01B97 /* MusicDetailView.swift in Sources */,
+				639137B625D12FC600BE4753 /* ContentTypeEnums.swift in Sources */,
+				639137B325D12F9600BE4753 /* Model.swift in Sources */,
+				639137B925D132B700BE4753 /* DetailView.swift in Sources */,
 				63A8A0E025A9C98000DB559B /* BerkayKaraApp.swift in Sources */,
 				6382E35025C0612F00E01B97 /* MainView.swift in Sources */,
-				63966FB925B31E9C000C6E8B /* AppModel.swift in Sources */,
-				63966FCA25B32447000C6E8B /* MovieView.swift in Sources */,
-				63966FC125B320AA000C6E8B /* MusicModel.swift in Sources */,
-				63966FDD25B33628000C6E8B /* BookView.swift in Sources */,
-				63966FC625B321A4000C6E8B /* BookModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

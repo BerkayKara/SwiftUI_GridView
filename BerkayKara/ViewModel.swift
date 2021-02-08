@@ -10,10 +10,13 @@ import SwiftUI
 
 class ViewModel:ObservableObject {
     
-    @Published var movies = [MovieResult]()
-    @Published var musics = [MusicResult]()
-    @Published var applications = [AppResult]()
-    @Published var books = [BookResult]()
+    @Published var movies = [Result]()
+    @Published var musics = [Result]()
+    @Published var applications = [Result]()
+    @Published var books = [Result]()
+    
+    var genericMessage: String = "Not Found"
+    
     
     init(){
         getMovies()
@@ -28,8 +31,8 @@ class ViewModel:ObservableObject {
             // check response status and err
             guard let data = data else { return }
             do {
-                let rss = try JSONDecoder().decode(MovieRSS.self, from: data)
-                print(rss)
+                let rss = try JSONDecoder().decode(RSS.self, from: data)
+               // print(rss)
                 self.movies = rss.feed.results
             } catch {
                 print("Failed to decode: \(error)")
@@ -43,8 +46,8 @@ class ViewModel:ObservableObject {
             // check response status and err
             guard let data = data else { return }
             do {
-                let rss = try JSONDecoder().decode(MusicRSS.self, from: data)
-//                print(rss)
+                let rss = try JSONDecoder().decode(RSS.self, from: data)
+                print(rss.feed.results.count)
                 self.musics = rss.feed.results
             } catch {
                 print("Failed to decode: \(error)")
@@ -58,8 +61,8 @@ class ViewModel:ObservableObject {
             // check response status and err
             guard let data = data else { return }
             do {
-                let rss = try JSONDecoder().decode(AppRSS.self, from: data)
-//                print(rss)
+                let rss = try JSONDecoder().decode(RSS.self, from: data)
+                //                print(rss)
                 self.applications = rss.feed.results
             } catch {
                 print("Failed to decode: \(error)")
@@ -73,8 +76,8 @@ class ViewModel:ObservableObject {
             // check response status and err
             guard let data = data else { return }
             do {
-                let rss = try JSONDecoder().decode(BookRSS.self, from: data)
-//                print(rss)
+                let rss = try JSONDecoder().decode(RSS.self, from: data)
+                //                print(rss)
                 self.books = rss.feed.results
             } catch {
                 print("Failed to decode: \(error)")
@@ -86,15 +89,21 @@ class ViewModel:ObservableObject {
     //MARK: Other Functions
     
     func dateFormat(date:String) -> String {
+        
         let dateFormatterGet = DateFormatter()
-        dateFormatterGet.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        dateFormatterGet.dateFormat = "yyyy-MM-dd"
         
         let dateFormatterPrint = DateFormatter()
-        dateFormatterPrint.dateFormat = "MMM dd,yyyy"
+        dateFormatterPrint.dateFormat = "MMMM dd, yyyy"
         
-        let date: Date? = dateFormatterGet.date(from: "2018-02-01T19:10:04+00:00")
-        print("Date",dateFormatterPrint.string(from: date!)) // Feb 01,2018
-        return dateFormatterPrint.string(from: date!);
+        var a = "Error"
+        
+        if let date = dateFormatterGet.date(from: date) {
+            a = dateFormatterPrint.string(from: date)
+        } else {
+            print("There was an error decoding the string")
+        }
+        return a
     }
     
     
@@ -108,10 +117,10 @@ class ViewModel:ObservableObject {
         var result = ""
         let count = genres.count
         for (index, item) in genres.enumerated() {
-            result.append(item.name)
-            index != count - 1 ? result.append(", ") : result.append(".")
+            result.append(item.name ?? genericMessage)
+            index != count - 1 ? result.append(", ") : result.append("")
         }
         return result
     }
-        
+    
 }
